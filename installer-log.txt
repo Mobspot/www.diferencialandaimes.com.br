@@ -1,0 +1,206 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 03:24:40
+* VERSION: 3.5.8.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.0.33-6+ubuntu14.04.1+deb.sury.org+3 | SAPI: fpm-fcgi
+PHP MEMORY:	5000M | SUHOSIN: disabled
+SERVER:		Apache/2.4.7
+DOC ROOT:	/home/modeloshostnet/www/instaladorprivate
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://www.modeloshostnet.com/instaladorprivate/dpro-installer/main.installer.php?archive=%2Fhome%2Fmodeloshostnet%2Fwww%2Finstaladorprivate%2F20191028_hostnet_ce46a4c3c15d0ac42178_20191028172737_archive.zip&bootloader=installer.php&
+SAFE MODE :	0
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20191028_hostnet_ce46a4c3c15d0ac42178_20191028172737_archive.zip
+SIZE:	69.54MB
+
+ZIP:	Shell Exec Unzip
+>>> Starting Shell-Exec Unzip:
+Command: unzip -o -qq "/home/modeloshostnet/www/instaladorprivate/20191028_hostnet_ce46a4c3c15d0ac42178_20191028172737_archive.zip" -d /home/modeloshostnet/www/instaladorprivate 2>&1
+<<< Shell-Exec Unzip Complete.
+Resetting permissions
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess file was not reset or backed up.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+STEP-1 COMPLETE @ 03:24:47 - RUNTIME: 6.7111 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 03:25:26
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.5.61 -- Build Server: 5.5.61
+FILE SIZE:	database.sql (613.59KB) - installer-data.sql (613.59KB)
+TIMEOUT:	120
+MAXPACK:	1073741824
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/home/modeloshostnet/www/instaladorprivate/installer-data.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	353
+
+wp_auto_updates: (10)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_pro_entities: (5)
+wp_duplicator_pro_packages: (0)
+wp_ewwwio_images: (0)
+wp_ewwwio_queue: (0)
+wp_gf_draft_submissions: (0)
+wp_gf_entry: (0)
+wp_gf_entry_meta: (0)
+wp_gf_entry_notes: (0)
+wp_gf_form: (0)
+wp_gf_form_meta: (0)
+wp_gf_form_revisions: (0)
+wp_gf_form_view: (0)
+wp_links: (0)
+wp_micro_revisions: (1)
+wp_options: (242)
+wp_postmeta: (6)
+wp_posts: (4)
+wp_rg_form: (0)
+wp_rg_form_meta: (0)
+wp_rg_form_view: (0)
+wp_rg_incomplete_submissions: (0)
+wp_rg_lead: (0)
+wp_rg_lead_detail: (0)
+wp_rg_lead_detail_long: (0)
+wp_rg_lead_meta: (0)
+wp_rg_lead_notes: (0)
+wp_term_relationships: (1)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (22)
+wp_users: (1)
+Removed '20' cache/transient rows
+
+INSERT DATA RUNTIME: 3.3969 sec.
+STEP-2 COMPLETE @ 03:25:30 - RUNTIME: 3.4039 sec.
+
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:25:36
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+Subsite id=-1
+wp_auto_updates~ (10)
+wp_commentmeta^ (0)
+wp_comments~ (1)
+wp_duplicator_pro_entities~ (5)
+wp_duplicator_pro_packages^ (0)
+wp_ewwwio_images^ (0)
+wp_ewwwio_queue^ (0)
+wp_gf_draft_submissions^ (0)
+wp_gf_entry^ (0)
+wp_gf_entry_meta^ (0)
+wp_gf_entry_notes^ (0)
+wp_gf_form^ (0)
+wp_gf_form_meta^ (0)
+wp_gf_form_revisions^ (0)
+wp_gf_form_view^ (0)
+wp_links^ (0)
+wp_micro_revisions~ (1)
+wp_options~ (242)
+wp_postmeta~ (6)
+wp_posts~ (4)
+wp_rg_form^ (0)
+wp_rg_form_meta^ (0)
+wp_rg_form_view^ (0)
+wp_rg_incomplete_submissions^ (0)
+wp_rg_lead^ (0)
+wp_rg_lead_detail^ (0)
+wp_rg_lead_detail_long^ (0)
+wp_rg_lead_meta^ (0)
+wp_rg_lead_notes^ (0)
+wp_term_relationships~ (1)
+wp_term_taxonomy~ (1)
+wp_termmeta^ (0)
+wp_terms~ (1)
+wp_usermeta~ (22)
+wp_users~ (1)
+--------------------------------------
+Search1:	'/home/fietsbrasil/www' 
+Change1:	'/home/modeloshostnet/www/instaladorprivate' 
+Search2:	'\/home\/fietsbrasil\/www' 
+Change2:	'\/home\/modeloshostnet\/www\/instaladorprivate' 
+Search3:	'%2Fhome%2Ffietsbrasil%2Fwww%2F' 
+Change3:	'%2Fhome%2Fmodeloshostnet%2Fwww%2Finstaladorprivate%2F' 
+Search4:	'\home\fietsbrasil\www' 
+Change4:	'/home/modeloshostnet/www/instaladorprivate' 
+Search5:	'//www.fietsbrasil.com.br' 
+Change5:	'//www.modeloshostnet.com/instaladorprivate' 
+Search6:	'\/\/www.fietsbrasil.com.br' 
+Change6:	'\/\/www.modeloshostnet.com\/instaladorprivate' 
+Search7:	'%2F%2Fwww.fietsbrasil.com.br' 
+Change7:	'%2F%2Fwww.modeloshostnet.com%2Finstaladorprivate' 
+Search8:	'https://www.modeloshostnet.com/instaladorprivate' 
+Change8:	'http://www.modeloshostnet.com/instaladorprivate' 
+Search9:	'https:\/\/www.modeloshostnet.com\/instaladorprivate' 
+Change9:	'http:\/\/www.modeloshostnet.com\/instaladorprivate' 
+Search10:	'https%3A%2F%2Fwww.modeloshostnet.com%2Finstaladorprivate' 
+Change10:	'http%3A%2F%2Fwww.modeloshostnet.com%2Finstaladorprivate' 
+SCANNED:	Tables:35 	|	 Rows:295 	|	 Cells:1261 
+UPDATED:	Tables:1 	|	 Rows:11 	|	 Cells:13 
+ERRORS:		0 
+RUNTIME:	0.100500 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - '/home/modeloshostnet/www/instaladorprivate/wp-config-arc.txt'
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Removed '0' schedule storage items
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 03:25:37 - RUNTIME: 0.1230 sec. 
+
+

@@ -1,0 +1,27 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Geral ===================== */
+
+/** Geral >> Main wc block grid products **/
+#main .wc-block-grid__products {
+	padding-right: 50px !important;
+	padding-left: 50px !important;
+}
+
+/** Geral >> #main .columns-5 **/
+#main .columns-5 {
+	padding-right: 40px !important;
+	padding-left: 40px !important;
+}
+
+/** Geral >> #main .woocommerce-result-count **/
+#main .woocommerce-result-count {
+	padding-left: 20px !important;
+}
+
+/** Geral >> #main .orderby **/
+#main .orderby {
+	margin-right: 40px !important;
+}
+
